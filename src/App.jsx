@@ -19,7 +19,7 @@ function App() {
   return (
      <BrowserRouter basename='/dashboard'>
        <Routes>
-         <Route path=' ' element={<Login/>}/>
+         <Route path='/' element={<Login/>}/>
          <Route path='/admin' element={ <RequireAuth><Admin/></RequireAuth>}/>
          <Route path='/admin/adduser' element={ <RequireAuth><Adduser/></RequireAuth>}/>
          <Route path='/manager' element={ <RequireAuth><Manager/></RequireAuth>}/>
