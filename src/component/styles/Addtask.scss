@@ -1,0 +1,83 @@
+.new {
+    width: 100%;
+  
+    .newContainer {
+      .top,
+      .bottom {
+        background-color: aliceblue;
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        padding: 10px;
+        margin: 20px;
+  
+        h1 {
+          font-size: 18px;
+          font-family: sans-serif;
+        }
+  
+        .right {
+          form {
+            padding: 10px;
+       
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+  
+            .formInput {
+              width: 30%;
+              margin: 5px 0;
+              padding: 20px;
+              display: flex;
+              flex-direction: column;
+              gap: 5px;
+  
+              label {
+                margin: 5px 0;
+                font-weight: bold;
+          
+              }
+  
+              input,
+              select,
+              textarea {
+                width: 100%;
+                padding: 8px;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid gray;
+       
+              }
+  
+              select {
+                padding: 5px;
+              }
+  
+              textarea {
+                height: 150px;
+                resize: none;
+              }
+            }
+  
+            button {
+              height: 40px;
+              width: 130px;
+              border: none;
+              padding: 10px;
+              background-color: teal;
+              color: white;
+              font-size: 14px;
+              font-weight: bold;
+              cursor: pointer;
+              margin-top: 10px;
+              border-radius: 3px;
+              transition: background-color 0.3s;
+  
+              &:hover {
+                background-color: darkcyan;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

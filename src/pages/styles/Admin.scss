@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    display: flex;
+
+    .homeContainer{
+        flex: 6;
+        
+        .widgets{
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           gap: 15px;
+           padding: 20px;
+        }
+    }
+  
+}
