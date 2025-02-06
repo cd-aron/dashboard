@@ -17,7 +17,7 @@ function App() {
 
   console.log(currentUser)
   return (
-     <BrowserRouter>
+     <BrowserRouter basename='/dashboard'>
        <Routes>
          <Route path='/' element={<Login/>}/>
          <Route path='/admin' element={ <RequireAuth><Admin/></RequireAuth>}/>
